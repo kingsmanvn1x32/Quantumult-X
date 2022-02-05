@@ -1,10 +1,7 @@
 var hcsavn = JSON.parse($response.body);
 
-hcsavn = {
-    "products": [{
-        "product_id": "com.adguard.lifetimePurchase",
-        "premium_status": "ACTIVE"
-    }]
-}
+hcsavn.status = "PREMIUM"
+hcsavn.licenseKeyStatus = "VALID"
+hcsavn.lifetime = true
 
 $done({body: JSON.stringify(hcsavn)});
