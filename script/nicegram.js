@@ -1,11 +1,5 @@
-let body = $response.body;
 let status = $response.status;
 
-status = 200;
-body = '{
-  "data": {
-    "premiumAccess": true
-  }
-}';
+status = '200';
 
-$done({status, body});
+$done({status});
