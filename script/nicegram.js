@@ -1,10 +1,9 @@
-let body = $response.body;
+var hcsavn = JSON.parse($response.body);
 
-body = '{
+hcsavn = {
   "data": {
     "premiumAccess": true
   }
-}';
+}
 
-
-$done({body});
+$done({body: JSON.stringify(hcsavn)});
