@@ -1,6 +1,3 @@
-#Author: langkhach270389
-#Source: chongluadao.vn
-
 const url = "https://api.chongluadao.vn/v2/blacklist"
 const arrwhite = ('sites.google.com|play.google.com|www.youtube.com|www.facebook.com|apps.apple.com|www.twitter.com|oa.zalo.me|zalo.me');
 const pattern = /(?:[a-z0-9](?:[a-z0-9-]{0,61}[a-z0-9])?\.)+[a-z0-9][a-z0-9-]{0,61}[a-z0-9]/;
