@@ -26,6 +26,16 @@ hcsavn = {
 
 
 
+//--------------------Picsew--------------------//
+if(bundle_id == "com.sugarmo.ScrollClip")
+{
+hcsavn = {
+"receipt":{"receipt_type":"Production", "adam_id":1208145167, "app_item_id":1208145167, "bundle_id":"com.sugarmo.ScrollClip", "application_version":"3117", "download_id":99062776539410, "version_external_identifier":848081931, "receipt_creation_date":"2022-06-29 10:32:53 Etc/GMT", "receipt_creation_date_ms":"1656498773000", "receipt_creation_date_pst":"2022-06-29 03:32:53 America/Los_Angeles", "request_date":"2022-07-03 03:56:15 Etc/GMT", "request_date_ms":"1656820575105", "request_date_pst":"2022-07-02 20:56:15 America/Los_Angeles", "original_purchase_date":"2021-01-31 00:52:55 Etc/GMT", "original_purchase_date_ms":"1612054375000", "original_purchase_date_pst":"2021-01-30 16:52:55 America/Los_Angeles", "original_application_version":"3095", 
+"in_app":[
+{"quantity":"1", "product_id":"com.sugarmo.ScrollClip.pro", "transaction_id":"590000650468376", "original_transaction_id":"590000650468376", "purchase_date":"2021-01-31 00:56:12 Etc/GMT", "purchase_date_ms":"1612054572000", "purchase_date_pst":"2021-01-30 16:56:12 America/Los_Angeles", "original_purchase_date":"2021-01-31 00:56:12 Etc/GMT", "original_purchase_date_ms":"1612054572000", "original_purchase_date_pst":"2021-01-30 16:56:12 America/Los_Angeles", "is_trial_period":"false", "in_app_ownership_type":"PURCHASED"}]}, "environment":"Production", "status":0}}
+
+
+
 //--------------------InShot--------------------//
 if(bundle_id == "com.camerasideas.InstaShot")
 {
